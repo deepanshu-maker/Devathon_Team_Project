@@ -1,0 +1,109 @@
+body{
+    background-color: rgb(209, 204, 204);
+ font-family: 'Open Sans', sans-serif;
+ color: black;
+}
+.navbar{
+ display: flex;
+ flex-direction: row;
+ /* border: 2px red solid; */
+ box-shadow: 3px 4px 10px gray;
+}
+
+.navbar h1{
+    position: absolute;
+    left: 600px;
+}
+.navbar img{
+ height: 90px;
+ padding: 4px 0px;
+ box-shadow: 3px 4px 10px gray;
+}
+.navbar button{
+ height: 50px;
+ width: 100px;
+ position: absolute;
+ right: 200px;
+ top: 30px;
+ border-radius: 4px;
+ font-size: 20px;
+
+ box-shadow: 3px 4px 10px gray;
+}
+.btn a,.btn2 a{
+text-decoration: none;    
+     color: black;
+}
+.btn:hover ,.btn2:hover{
+ background-color: gray;
+ cursor: pointer;
+}
+.btn2{
+ position: absolute;
+ left: 1350px;
+ /* right: 10px; */
+}
+
+.container{
+ border: 0.5px solid rgb(90, 61, 61);
+ display: block;
+ margin: auto;
+ width: 600px;
+ height: 600px;
+ text-align: center;
+ margin-top: 30px;
+ box-shadow: 10px 10px 10px gray;
+}
+.container h1{
+ font-size:40px;
+}
+.read,.write{
+ /* border: 2px solid red; */
+ display: block;
+ margin: auto;
+ width: 400px;
+ height: 200px;
+ padding: 10px 0px ;
+ box-shadow: 10px 10px 10px gray;
+}
+.write{
+ margin-top: 25px;
+}
+.read h3,.write h3{
+ font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.btn3,.btn4{
+   
+ height: 50px;
+ width: 150px;
+ /* position: absolute;
+ right: 20px;
+ top: 30px; */
+ border-radius: 4px;
+ font-size: 20px;
+ border: 2px solid black;
+ box-shadow: 3px 4px 10px gray;
+ margin-top: 20px;
+}
+
+.btn3 a,.btn4 a{
+text-decoration: none;    
+     color: black;
+}
+.btn3:hover ,.btn4:hover{
+ background-color: gray;
+ cursor: pointer;
+}

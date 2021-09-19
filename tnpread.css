@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(209, 204, 204);
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px red solid; */
+    box-shadow: 3px 4px 10px gray;
+}
+
+.navbar h1 {
+    position: absolute;
+    left: 600px;
+}
+
+.navbar img {
+    height: 90px;
+    padding: 4px 0px;
+    box-shadow: 3px 4px 10px gray;
+}
+
+.navbar button {
+    height: 50px;
+    width: 100px;
+    position: absolute;
+    right: 200px;
+    top: 30px;
+    border-radius: 4px;
+    font-size: 20px;
+
+    box-shadow: 3px 4px 10px gray;
+}
+
+.btn a,
+.btn2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover,
+.btn2:hover,.accept:hover,.reject:hover {
+    background-color: gray;
+    cursor: pointer;
+}
+
+.btn2 {
+    position: absolute;
+    left: 1350px;
+    /* right: 10px; */
+}
+
+.container {
+    border: 2px solid gray;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    width: 1200px;
+    box-shadow: 10px 10px 10px gray;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.name,
+.email,
+.batch,
+.company,
+.cgpa,
+.job,
+.mode,
+.branch,
+.ot,
+.round1,
+.round2,
+.round3 {
+    border: 2px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    padding: 0px 10px;
+    background-color: gray;
+}
+
+.namelabel,
+.emaillabel,
+.batchlabel,
+.companylabel,
+.cgpalabel,
+.joblabel,
+.modelabel,
+.branchlabel,
+.otlabel,
+.round1label,
+.round2label,
+.round3label {
+    /* border: 2px solid red; */
+    width: 150px;
+}
+
+.namedata,
+.emaildata,
+.batchdata,
+.companydata,
+.cgpadata,
+.jobdata,
+.modedata,
+.otdata,
+.round1data,
+.round2data,
+.round3data {
+    /* border: 2px solid red; */
+    width: 950px;
+    margin: 10px;
+    padding: 4px 4px;
+    /* border-radius: 10px;
+    background-color: gray; */
+}
+
+.branchdata {
+    margin: 4px 10px;
+    position: relative;
+    top: 18px;
+}
+.accept,.reject{
+    
+    height: 50px;
+    width: 100px;
+    /* position: absolute;
+    right: 200px;
+    top: 30px; */
+    border-radius: 4px;
+    font-size: 20px;
+    margin: 10px;
+    box-shadow: 3px 4px 10px gray;
+    border: 1px solid black;
+}
+.reject{
+    position: relative;
+    left: 950px;
+}
